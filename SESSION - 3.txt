@@ -1,0 +1,50 @@
+SESSION - 3
+
+Create a table called Playlist with columns: id (INT, primary key), song_name (VARCHAR), artist (VARCHAR), and duration (INT, seconds).
+ Insert a single row for your current favorite song.
+
+create table playlist(
+
+    song_id int(10) primary key,
+    song_name varchar(250),
+    song_artist varchar(100),
+    song_duration int(10)
+    
+);
+
+insert into playlist("song_id","song_name","song_artist","song_duration") values (101,"heena","artijit",22)
+insert into playlist("song_id","song_name","song_artist","song_duration") values (102,"vijay","shreya",33)
+insert into playlist("song_id","song_name","song_artist","song_duration") values (101,"heena","justin biber",12)
+insert into playlist("song_id","song_name","song_artist","song_duration") values (101,"heena","artiji",11)
+
+
+Update the artist name for one of your Playlist entries to fix a typo (for example, change 'Arjit Singh' to 'Arijit Singh') using the UPDATE statement with a WHERE clause.
+
+update playlist set song_name="Arijit Singh" where id=101
+
+
+Delete a song from the Playlist table where the duration is less than 120 seconds using the DELETE statement and a WHERE clause.<br><br><em><strong>Hint:</strong> Make sure your WHERE clause is specific so you don’t accidentally delete all rows.</em>
+delete from playlist where i
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
